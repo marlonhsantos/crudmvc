@@ -1,0 +1,24 @@
+.show_validation_errors {
+    display:block;
+}
+.hide_validation_errors {
+    display:none;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.td_centered {
+    text-align: center;
+}
+
+.home-block {
+    border: 1px solid #dee2e6 !important;
+    padding: 3px;
+    margin-left: 5px;
+}
