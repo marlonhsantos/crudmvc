@@ -14,7 +14,7 @@ O projeto implementa um CRUD simples utilizando as seguintes tecnologias e metod
  
 ## Pré-Requisitos
 - **PHP** 7.x
-- Bibliteca PDO
+- Bibliteca **PDO**
 - Banco de dados **MySQL**
 - **Composer** (informações sobre como baixar e instalar [aqui](https://getcomposer.org/))
 
