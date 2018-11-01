@@ -1,3 +1,6 @@
+<?php
+use Devcon\Helpers\Url;
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

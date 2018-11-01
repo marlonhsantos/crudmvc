@@ -1,4 +1,8 @@
 <?php
+namespace Devcon\Core;
+
+use PDO;
+
 class Model
 {   
     protected $db;
@@ -12,8 +16,8 @@ class Model
      */
     public function __construct()
     {
-		$this->table = '';
-		$this->id = 'id';
+        $this->table = '';
+        $this->id = 'id';
     }
 
     /**

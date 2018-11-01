@@ -1,4 +1,8 @@
 <?php
+namespace Devcon\Models;
+
+use Devcon\Core\Model;
+
 class UsuarioModel extends Model
 {
     /**

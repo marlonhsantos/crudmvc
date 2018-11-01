@@ -1,9 +1,9 @@
 <?php
 //paths
-define('PATH_CORE', 'core/');
-define('PATH_CONTROLLER', 'controllers/');
-define('PATH_MODEL', 'models/');
-define('PATH_HELPER', 'helpers/');
+define('PATH_CORE', 'src/core/');
+define('PATH_CONTROLLER', 'src/controllers/');
+define('PATH_MODEL', 'src/models/');
+define('PATH_HELPER', 'src/helpers/');
 define('PATH_VIEW', 'views/');
 
 define('ENVIRONMENT','dev');
@@ -18,4 +18,4 @@ define('DB_PASS', $db[ENVIRONMENT]['pass']);
 
 //Defaults
 define('DEFAULT_CONTROLLER',"Usuario");
-define('BASE_URL', 'http://'.$_SERVER['SERVER_NAME'].':8081/crudmvc/');
+define('BASE_URL', 'http://localhost/crudmvc/');

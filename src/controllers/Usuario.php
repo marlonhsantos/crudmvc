@@ -1,4 +1,8 @@
 <?php
+namespace Devcon\Controllers;
+
+use Devcon\Core\Controller;
+
 class Usuario extends Controller 
 {
     /**

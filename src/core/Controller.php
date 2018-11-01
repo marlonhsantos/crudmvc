@@ -1,4 +1,8 @@
 <?php
+namespace Devcon\Core;
+
+use Devcon\Helpers\Url;
+
 class Controller {
     /**
      * Instancia um novo Controller
@@ -18,7 +22,8 @@ class Controller {
      */
     public function loadModel($model_name = '')
     {
-        $this->$model_name = new $model_name();
+        $model_class_name = "Devcon\\Models\\".$model_name;
+        $this->$model_name = new $model_class_name();
     }
 
     /**
